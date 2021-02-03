@@ -1,7 +1,7 @@
 {
-  "name": "uniswap-api",
+  "name": "cheeseswap-api-v2",
   "version": 2,
-  "alias": "api.uniswap.com",
+  "alias": "data.cheeseswap.app",
   "builds": [{ "src": "src/**/*.ts", "use": "@now/node" }],
   "routes": [
     { "src": "/totalliquidity", "dest": "/src/totalliquidity.ts", "methods": ["GET"] },
